@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>AJ Penalosa - Contact</title>
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	
+	<!-- Styles -->
+	<link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Changes body class from "preload" to "contact" -->
+    <script>
+        setTimeout(function(){
+        document.body.className="contact";
+        },500);
+    </script>
+</head>
+
+<body class="preload">
+        
+    <header class="main-header clearfix">
+        <div class="container">
+            <a href="index.html" class="logo">AJ Penalosa</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> <!-- /main-nav -->
+        </div> <!-- /container -->
+    </header> <!-- /main-header -->
+
+    <div class="container clearfix">
+
+        <section class="main-content">
+
+            <h1 class="page-title">Contact</h1>
+            
+            <form class="contact-form" method="post" action="contact.html">
+                    
+                <label>Name</label>
+                <input type="text" class="input" value="" name="name-1" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="John Smith">
+                
+                <label>Email</label>
+                <input type="text" class="input" value="" name="email-1" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="example@gmail.com">
+                
+                <label>Message</label>
+                <textarea name="message-1" class="message input" data-required_mark="required" data-field_type="text" data-original_id="message"></textarea>
+                
+                <button type="submit" class="btn-submit">Submit</button>
+            
+            </form> <!-- /contact-form -->
+
+        </section> <!-- /main-content -->
+        
+        <aside class="sidebar">
+            <h4>Connect With Me</h4>
+            <div class="social">
+                <a href="https://github.com/ajpenalosa" target="_blank" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/ajpenalosa/" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://stackoverflow.com/users/8645545/pixelmotives" target="_blank" class="stackoverflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+            </div> <!-- /social -->
+        </aside> <!-- /sidebar -->
+
+    </div> <!-- /container -->
+    
+    <footer class="main-footer">
+        <small>Copyright &copy; 2017 Anthony Penalosa</small>
+    </footer> <!-- /main-footer -->
+    
+</body>
+</html>
