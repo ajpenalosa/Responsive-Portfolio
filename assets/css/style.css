@@ -523,6 +523,12 @@ body.preload .btn-submit {
         text-align: center;
     }
     
+    /* About */
+
+    .profile-photo {
+        width: 100%;
+    }
+    
     /* Portfolio */
 
     .portfolio-item {
