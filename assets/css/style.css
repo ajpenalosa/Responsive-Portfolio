@@ -522,6 +522,10 @@ body.preload .btn-submit {
         margin: 20px 0;
         text-align: center;
     }
+
+    .main-nav ul li {
+        width: 30%;
+    }
     
     /* About */
 
