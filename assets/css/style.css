@@ -471,6 +471,12 @@ body.preload .btn-submit {
         width: 100%;
     }
     
+    /* About */
+
+    .profile-photo {
+        width: 50%;
+    }
+    
     /* Portfolio */
 
     .portfolio-item {
