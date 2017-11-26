@@ -275,14 +275,21 @@ a.stackoverflow {
 }
 
 .portfolio-item {
-    display: inline-block;
+    display: block;
     position: relative;
-    width: 100%;
-    height: auto;
+    width: 48%;
     margin-bottom: 56px;
 }
 
-.portfolio-item:last-of-type {
+.portfolio-item:nth-child(odd) {
+    float: left;
+}
+
+.portfolio-item:nth-child(even) {
+    float: right;
+}
+
+.portfolio-item:last-child {
     margin-bottom: 0;
 }
 
@@ -408,24 +415,15 @@ body.preload *{
         width: 420px;
     }
     
-    /* Portfolio */
-    
-    .portfolio-item {
-        display: block;
-        position: relative;
-        width: 45%;
-        margin-bottom: 56px;
-    }
-    
-    .portfolio-item:nth-child(odd) {
-        float: left;
-    }
-    
-    .portfolio-item:nth-child(even) {
-        float: right;
-    }
+    /* About */
     
     .profile-photo {
+        width: 100%;
+    }
+    
+    /* Portfolio */
+
+    .portfolio-item {
         width: 100%;
     }
 }
@@ -455,6 +453,12 @@ body.preload *{
 
     .sidebar {
         width: 100%;
+    }
+    
+    /* Portfolio */
+
+    .portfolio-item {
+        width: 48%;
     }
 }
 
@@ -500,18 +504,6 @@ body.preload *{
     /* Portfolio */
 
     .portfolio-item {
-        display: block;
-        position: relative;
-        width: 274px;
-        height: 205px;
-        margin-bottom: 56px;
-    }
-    
-    .portfolio-item:nth-child(odd) {
-        float: left;
-    }
-    
-    .portfolio-item:nth-child(even) {
-        float: right;
+        width: 100%;
     }
 }
